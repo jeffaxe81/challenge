@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criptografia de Texto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Criptografia de Texto</h1>
+      <label for="original">Digite uma palavra para criptografar:</label>
+      <input type="text" id="original" />
+      <button onclick="criptografar()">Criptografar</button>
+      <p id="resultado"></p>
+
+      <label for="criptografado"
+        >Digite uma palavra criptografada para descriptografar:</label
+      >
+      <input type="text" id="criptografado" />
+      <button onclick="descriptografar()">Descriptografar</button>
+      <p id="resultadoDescriptografado"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
